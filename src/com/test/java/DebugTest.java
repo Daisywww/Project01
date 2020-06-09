@@ -31,7 +31,6 @@ public class DebugTest {
         HashMap<String,String> map = new HashMap<>();
         map.put("name","Tom");
         map.put("age","12");
-        System.out.println(map);
         map.put("school","Tsinghua");
         map.put("major","computer");
 
