@@ -27,9 +27,11 @@ public class DebugTest {
         条件断点
         查看表达式的值 ALT + F8
          */
+
         HashMap<String,String> map = new HashMap<>();
         map.put("name","Tom");
         map.put("age","12");
+        System.out.println(map);
         map.put("school","Tsinghua");
         map.put("major","computer");
 
